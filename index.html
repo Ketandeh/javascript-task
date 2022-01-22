@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Login Form using Javascript</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="label">User Login</h1>
+		<form class="login_form" name="form" onsubmit="return validated()">
+			<div class="font">Email or Phone</div>
+			<input id="username"  type="text" name="email">
+			<div id="email_error">email can't be empty</div>
+			<div class="font font2">Password</div>
+			<input type="password" name="password">
+			<div id="pass_error">Password can't be empty</div>
+			<button type="submit" disabled="disabled" id="submit"  onclick="">Login</button>
+		</form>
+		<span><b id = "text"></b></span>
+	</div>
+	
+	
+	<script src="script.js"></script>
+</body>
+</html>
